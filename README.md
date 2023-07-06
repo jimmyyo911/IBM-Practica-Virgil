@@ -27,18 +27,23 @@
 ## Teme
 ### Sesiunea 1
  1. Use the awk command to extract the „rights” column of a document/file/folder and output it in the terminal.
+
  ```bash
   ls -hrtl | awk {'print $1'}
  ```
+ 
  ![s1ex1](ss/s1ex1.png)
 
   **2. Use the chmod command to change the permissions of a file as it follows : user has read write execute, group has read and execute, others have nothing at all.**
+
  ```bash
   chmod 750 chmodtest.txt
  ```
+
  ![s1ex2](ss/s1ex2.png)
 
   **3. Use the wc command to count the number of lines, words, and characters in a file or set of files.**
+
  ```bash
   wc -lwc wctest.txt
  ```
