@@ -24,7 +24,7 @@
 ### Sesiunea 7
 
 
-## (#teme)Teme
+## Teme
 ### Sesiunea 1
  1. Use the awk command to extract the „rights” column of a document/file/folder and output it in the terminal.
  ```bash
